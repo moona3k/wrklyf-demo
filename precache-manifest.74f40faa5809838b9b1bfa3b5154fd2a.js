@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/wrklyf-demo/static/js/runtime~main.1d9ed6ed.js"
   },
   {
-    "revision": "2d4691fd08038195fdbb",
-    "url": "/wrklyf-demo/static/js/main.14bca530.chunk.js"
+    "revision": "ef34566cc54cff42456b",
+    "url": "/wrklyf-demo/static/js/main.d71d1190.chunk.js"
   },
   {
     "revision": "ebea4dc20aa2ecf4f954",
     "url": "/wrklyf-demo/static/js/2.ffd514c6.chunk.js"
   },
   {
-    "revision": "2d4691fd08038195fdbb",
+    "revision": "ef34566cc54cff42456b",
     "url": "/wrklyf-demo/static/css/main.752c4fbd.chunk.css"
   },
   {
-    "revision": "b227f6a63be7ccaf30e00d4809b9ce60",
+    "revision": "b88649472056df735ecde59f48b90587",
     "url": "/wrklyf-demo/index.html"
   }
 ];

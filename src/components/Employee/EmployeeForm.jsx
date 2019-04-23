@@ -34,7 +34,7 @@ class EmployeeForm extends React.Component {
     createEmployee = () => {
         const employee = this.state;
         this.props.createEmployee(employee);
-        this.props.history.push("/");
+        this.props.history.push("/dashboard");
 
         // axios.post('https://api.wrklyf.com/api/users/add-employees', employee)
         //     .then(res => {

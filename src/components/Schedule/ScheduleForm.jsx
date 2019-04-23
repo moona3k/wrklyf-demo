@@ -35,7 +35,7 @@ class ScheduleForm extends React.Component {
     const schedule = this.state;
 
     this.props.createSchedule(schedule);
-    this.props.history.push('/');
+    this.props.history.push('/dashboard');
 
     // axios.post('https://api.wrklyf.com/api/tasks/create', schedule)
     //   .then(res => {
@@ -49,16 +49,16 @@ class ScheduleForm extends React.Component {
   render() {
     const { classes } = this.props;
 
-    const employeeMenuItem = this.props.employees.map(employee => {
+    const employeeMenuItem = this.props.employees.map((employee, idx) => {
       let fullName = employee.first_name.concat(" ", employee.last_name)
       return (
-        <MenuItem value={fullName}>{fullName}</MenuItem>
+        <MenuItem key={`employee-${idx}`} value={fullName}>{fullName}</MenuItem>
       )
     });
 
-    const businessMenuItem = this.props.businesses.map(business => {
+    const businessMenuItem = this.props.businesses.map((business, idx) => {
       return (
-        <MenuItem value={business}>{business}</MenuItem>
+        <MenuItem key={`business-${idx}`} value={business}>{business}</MenuItem>
       )
     });
 
@@ -79,7 +79,7 @@ class ScheduleForm extends React.Component {
                     onChange={this.handleChange("store_name")}
                     inputProps={{ id: "store_name" }}
                   >
-                    {employeeMenuItem}
+                    {businessMenuItem}
                   </Select>
                 </FormControl>
                 <FormControl className={classes.formControl}>
@@ -89,7 +89,7 @@ class ScheduleForm extends React.Component {
                     onChange={this.handleChange("employee")}
                     inputProps={{ id: "employee" }}
                   >
-                    {businessMenuItem}
+                    {employeeMenuItem}
                   </Select>
                 </FormControl>
               </div>

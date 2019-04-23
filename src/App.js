@@ -7,6 +7,7 @@ import SplashPageContainer from './components/SplashPage/SplashPageContainer';
 import BusinessFormContainer from './components/Business/BusinessFormContainer';
 import ScheduleFormContainer from './components/Schedule/ScheduleFormContainer';
 import EmployeeFormContainer from './components/Employee/EmployeeFormContainer';
+import DashboardContainer from './components/Dashboard/DashboardContainer';
 
 import './stylesheets/reset.scss';
 import './stylesheets/layout.scss';
@@ -18,15 +19,16 @@ const App = props => {
       <NavBar />
       <div className="bg">
         <Switch>
-          <Route exact path="/" component={ SplashPageContainer } />
-          <Route path="/new-store" component={ BusinessFormContainer } />
-          <Route path="/new-employee" component={ EmployeeFormContainer } />
-          <Route path="/new-schedule" component={ ScheduleFormContainer } />
+          <Route exact path="/" component={SplashPageContainer} />
+          <Route path="/dashboard" component={DashboardContainer} />
+          <Route path="/new-store" component={BusinessFormContainer} />
+          <Route path="/new-employee" component={EmployeeFormContainer} />
+          <Route path="/new-schedule" component={ScheduleFormContainer} />
         </Switch>
       </div>
       <Footer />
     </React.Fragment>
-  )
+  );
 };
 
 export default App;

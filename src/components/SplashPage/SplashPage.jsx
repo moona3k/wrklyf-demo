@@ -19,6 +19,7 @@ class SplashPage extends React.Component {
                     <button onClick={() => this.changeRoute('new-store')}>Create New Business</button>
                     <button onClick={() => this.changeRoute('new-employee')}>Create New Employee</button>
                     <button onClick={() => this.changeRoute('new-schedule')}>Create New Schedule</button>
+                    <button onClick={() => this.changeRoute('dashboard')}>See All Schedules</button>
                 </div>
             </div>
         )

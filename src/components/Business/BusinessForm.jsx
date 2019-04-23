@@ -3,9 +3,6 @@ import FormDetailOne from './FormDetailOne';
 import FormDetailTwo from './FormDetailTwo';
 import FormConfirm from './FormConfirm';
 
-import { connect } from "react-redux";
-import { createBusiness } from '../../actions/business_actions';
-
 class BusinessForm extends React.Component {
     constructor(props) {
         super(props);

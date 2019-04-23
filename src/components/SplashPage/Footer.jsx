@@ -5,15 +5,15 @@ export default () => {
         <div className="footer-container">
             <div className="footer-box">
                 <h2>Our Company</h2>
-                <a>Features</a>
-                <a>Pricing</a>
-                <a>How it Works</a>
-                <a>Industries</a>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>How it Works</p>
+                <p>Industries</p>
             </div>
             <div className="footer-box">
                 <h2>Contact</h2>
-                <a>info@wrklyf.com</a>
-                <a>415-471-6367</a>
+                <p>info@wrklyf.com</p>
+                <p>415-471-6367</p>
             </div>
             <div className="footer-box">
                 <h2>Download App</h2>

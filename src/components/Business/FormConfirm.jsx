@@ -23,7 +23,7 @@ class FormConfirm extends React.Component {
         }
 
         this.props.createBusiness(business);
-        this.props.history.push('/');
+        this.props.history.push('/dashboard');
     }
     
 

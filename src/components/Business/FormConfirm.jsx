@@ -19,7 +19,8 @@ class FormConfirm extends React.Component {
                 city: values.city,
                 state: values.state,
                 zip: values.zipcode
-            }
+            },
+            description: values.description
         }
 
         this.props.createBusiness(business);

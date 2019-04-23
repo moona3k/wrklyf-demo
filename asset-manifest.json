@@ -1,13 +1,13 @@
 {
-  "main.css": "/wrklyf-demo/static/css/main.e6c2f876.chunk.css",
-  "main.js": "/wrklyf-demo/static/js/main.6e9d1998.chunk.js",
-  "main.js.map": "/wrklyf-demo/static/js/main.6e9d1998.chunk.js.map",
+  "main.css": "/wrklyf-demo/static/css/main.1ca1642a.chunk.css",
+  "main.js": "/wrklyf-demo/static/js/main.e84beec3.chunk.js",
+  "main.js.map": "/wrklyf-demo/static/js/main.e84beec3.chunk.js.map",
   "runtime~main.js": "/wrklyf-demo/static/js/runtime~main.1d9ed6ed.js",
   "runtime~main.js.map": "/wrklyf-demo/static/js/runtime~main.1d9ed6ed.js.map",
-  "static/js/2.1e7e73c3.chunk.js": "/wrklyf-demo/static/js/2.1e7e73c3.chunk.js",
-  "static/js/2.1e7e73c3.chunk.js.map": "/wrklyf-demo/static/js/2.1e7e73c3.chunk.js.map",
+  "static/js/2.ffd514c6.chunk.js": "/wrklyf-demo/static/js/2.ffd514c6.chunk.js",
+  "static/js/2.ffd514c6.chunk.js.map": "/wrklyf-demo/static/js/2.ffd514c6.chunk.js.map",
   "index.html": "/wrklyf-demo/index.html",
-  "precache-manifest.e52426d4118480c7d10a16e49e65e285.js": "/wrklyf-demo/precache-manifest.e52426d4118480c7d10a16e49e65e285.js",
+  "precache-manifest.eb05b7a25beb3f960cefc1411ae894e7.js": "/wrklyf-demo/precache-manifest.eb05b7a25beb3f960cefc1411ae894e7.js",
   "service-worker.js": "/wrklyf-demo/service-worker.js",
-  "static/css/main.e6c2f876.chunk.css.map": "/wrklyf-demo/static/css/main.e6c2f876.chunk.css.map"
+  "static/css/main.1ca1642a.chunk.css.map": "/wrklyf-demo/static/css/main.1ca1642a.chunk.css.map"
 }

@@ -1,28 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Switch, Route } from 'react-router';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+import NavBar from './components/SplashPage/NavBar';
+import Footer from './components/SplashPage/Footer';
+import SplashPageContainer from './components/SplashPage/SplashPageContainer';
+import BusinessFormContainer from './components/Business/BusinessFormContainer';
+import ScheduleFormContainer from './components/Schedule/ScheduleFormContainer';
+import EmployeeFormContainer from './components/Employee/EmployeeFormContainer';
+
+import './stylesheets/reset.scss';
+import './stylesheets/layout.scss';
+import './stylesheets/style.scss';
+
+const App = props => {
+  return (
+    <React.Fragment>
+      <NavBar />
+      <div className="bg">
+        <Switch>
+          <Route exact path="/" component={ SplashPageContainer } />
+          <Route path="/new-store" component={ BusinessFormContainer } />
+          <Route path="/new-employee" component={ EmployeeFormContainer } />
+          <Route path="/new-schedule" component={ ScheduleFormContainer } />
+        </Switch>
       </div>
-    );
-  }
-}
+      <Footer />
+    </React.Fragment>
+  )
+};
 
 export default App;

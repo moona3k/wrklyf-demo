@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .3px;
+    word-spacing: .8px;
+}
+
+button {
+    border: 1px solid white;
+    background-color: #19DA9B;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+    transition: background-color 0.2s;
+
+    font-size: 17px;
+    color: white;
+}
+
+button:hover {
+    background-color: #04BC23;
+    border-color: white;
+    color: white;
+}
+
+.btn-purple {
+  background-color: #A554F6;
+}
+
+.btn-purple:hover {
+  background-color: #8444C5;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+	font-size: 45px;
+	font-style: normal;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  color: #A554F6;
+}
+
+input {
+  border: 1px solid rgb(177, 185, 195);
+  padding: 10px 16px;
+  width: 434px;
+  line-height: 24px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  word-spacing: .6px;
+  letter-spacing: .3px;
+}
+
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  transition: opacity 200ms ease-in-out;
+  background: rgba(0, 0, 0, 0.15);
+  &--after-open {
+    opacity: 1;
+  }
+  &--before-close {
+      opacity: 0;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(177, 185, 195);
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: .6px;
+  letter-spacing: .3px;
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}

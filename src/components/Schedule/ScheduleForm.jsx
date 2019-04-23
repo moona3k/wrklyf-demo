@@ -58,7 +58,7 @@ class ScheduleForm extends React.Component {
 
     const businessMenuItem = this.props.businesses.map((business, idx) => {
       return (
-        <MenuItem key={`business-${idx}`} value={business}>{business}</MenuItem>
+        <MenuItem key={`business-${idx}`} value={business.name}>{business.name}</MenuItem>
       )
     });
 
